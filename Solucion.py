@@ -6,9 +6,12 @@ edad = input()
 print("usted se llama " + nombre + " y tiene " + edad + " años de edad")
 
 # Punto N 2
-def Calcular_radio(radio, area):
+def CalcularArea(radio):
 
-    print(area)
+    Area = radio * radio * 3.14
+    return Area
 
+print(CalcularArea(12))
 
-   Calcular_radio(radio= 12, area= radio * radio * 3,14)
+# Punto N 3
+
